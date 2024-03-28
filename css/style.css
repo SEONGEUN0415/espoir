@@ -374,10 +374,20 @@ body {
 }
 .cont02 .typography {
   margin: 85px 0;
+  display: flex;
 }
 .cont02 .typography img {
   max-width: 1920px;
   width: 100%;
+  animation: moving 10s infinite linear;
+}
+@keyframes moving {
+  0%{
+    transform: translate(0)
+  }
+  100%{
+    transform: translate(-100%);l
+  }
 }
 .cont02 .house__makeup {
   margin: 0 auto;
