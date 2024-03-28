@@ -15,6 +15,7 @@ li {
 body {
   line-height: 1;
   color: #333;
+  font-family: 'pretendard';
 }
 .inner {
   margin: 0 auto 180px;
@@ -487,6 +488,7 @@ body {
   margin-top: 20px;
   color: #1b1919;
   width: 90%;
+  line-height: 1.3;
 }
 .cont04 .inner .swiper {
   width: 70%;
