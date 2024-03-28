@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>espoir</title>
     <!-- Link Swiper's CSS -->
+    
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
     <script
       src="https://kit.fontawesome.com/fdf75b0975.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
   </head>
   <body>
     <div id="wrap">
@@ -238,11 +242,11 @@
         <div class="inner">
           <div class="portrait">
             <figure>
-              <img src="img/section01_portrait.jpg" alt="" />
+              <img data-aos="fade-up" src="img/section01_portrait.jpg" alt="section01_portrait" />
             </figure>
-            <div class="text">
+            <div class="text" data-aos="fade-down">
               <div class="title">
-                <img src="img/section01_text01.png" alt="" />
+                <img src="img/section01_text01.png" alt="img/section01_text01" />
               </div>
               <!-- .mini__title -->
               <div class="creator">
@@ -637,7 +641,11 @@
       </footer><!-- .footer end -->
     </div>
     <!-- #wrap end -->
-
+    
+    <!-- AOS -->
+    <script>
+      AOS.init();
+    </script>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
