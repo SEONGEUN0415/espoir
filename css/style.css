@@ -160,6 +160,9 @@ body {
   transform: translate(0, -50%);
   width: 40%;
   margin: 30px;
+  
+}
+.main__visual .swiper-slide:nth-child(1) > div{
   color: #fff;
 }
 .main__visual .swiper-slide > div .title p {
@@ -182,6 +185,8 @@ body {
   padding: 0 15px;
   text-align: center;
   line-height: 49px;
+  font-weight: bold;
+  color: #fff;
 }
 .main__visual .swiper-slide > div span {
   font-size: 18px;
@@ -846,7 +851,7 @@ body {
   }
   .main__visual .swiper-slide > div {
     top: 55%;
-    width: 80%;
+    width: 100%;
   }
   .cont01 .inner {
     margin: 50px auto 80px;
