@@ -1,5 +1,54 @@
 @charset "utf-8";
 
+/* font */
+@font-face {
+  font-family: 'pretendard';
+  src: url('font/Pretendard-Black.eot');
+  src: url('font/Pretendard-Black.eot?#iefix') format('embedded-opentype'),
+      url('font/Pretendard-Black.woff2') format('woff2'),
+      url('font/Pretendard-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'pretendard';
+  src: url('font/Pretendard-Bold.eot');
+  src: url('font/Pretendard-Bold.eot?#iefix') format('embedded-opentype'),
+      url('font/Pretendard-Bold.woff2') format('woff2'),
+      url('font/Pretendard-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'pretendard';
+  src: url('font/Pretendard-Light.eot');
+  src: url('font/Pretendard-Light.eot?#iefix') format('embedded-opentype'),
+      url('font/Pretendard-Light.woff2') format('woff2'),
+      url('font/Pretendard-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'pretendard';
+  src: url('font/Pretendard-Regular.eot');
+  src: url('font/Pretendard-Regular.eot?#iefix') format('embedded-opentype'),
+      url('font/Pretendard-Regular.woff2') format('woff2'),
+      url('font/Pretendard-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -180,7 +229,7 @@ body {
   column-gap: 8px;
 }
 .main__visual .swiper-slide > div .btn p {
-  font-size: 22px;
+  font-size: 16px;
   background-color: #ce0e2d;
   padding: 0 15px;
   text-align: center;
@@ -635,9 +684,7 @@ body {
   .main__visual .swiper-slide > div .title h3 {
     font-size: 38px;
   }
-  .main__visual .swiper-slide > div .btn p {
-    font-size: 20px;
-  }
+  
   .main__visual .swiper-slide > div span {
     font-size: 16px;
   }
@@ -663,7 +710,7 @@ body {
     bottom: 40px;
   }
   .main__visual .swiper-slide > div .btn p {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -799,9 +846,7 @@ body {
   .main__visual .swiper-slide > div .title h3 {
     font-size: 30px;
   }
-  .main__visual .swiper-slide > div .btn p {
-    font-size: 18px;
-  }
+  
   .main__visual .swiper-slide > div span {
     font-size: 14px;
   }
