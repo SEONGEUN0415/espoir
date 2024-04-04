@@ -65,6 +65,7 @@ body {
   line-height: 1;
   color: #333;
   font-family: 'pretendard';
+  overflow-x: hidden;
 }
 .inner {
   margin: 0 auto 180px;
@@ -429,6 +430,7 @@ body {
 .cont02 .typography {
   margin: 85px 0;
   display: flex;
+  overflow-x: hidden;
 }
 .cont02 .typography img {
   max-width: 1920px;
@@ -437,10 +439,10 @@ body {
 }
 @keyframes moving {
   0%{
-    transform: translate(0)
+    transform: translate(0);
   }
   100%{
-    transform: translate(-100%);l
+    transform: translate(-100%);
   }
 }
 .cont02 .house__makeup {
